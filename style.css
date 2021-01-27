@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    font size: 16px;
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    background-color: hsl(270, 20%, 96%);
+}
+.bg-color-left {
+    width: 100%;
+    max-width: 30%;
+    background-image: linear-gradient(to bottom, #e942ff, #8838ff);
+    height: 90vh;
+    border-radius: 0 0 200px 200px;
+    left: -6%;
+    position: absolute;
+}
+.bg-color-right {
+    width: 100%;
+    max-width: 30%;
+    background-color: #ffe6ff;
+    height: 90vh;
+    border-radius: 200px 200px 0 0;
+    right: -10%;
+    position: absolute;
+    top: 15%;
+    z-index: -1;
+}
+.box-text {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    font-family: "Rubik", sans-serif;
+}
+.box-text p {
+    max-width: 70%;
+    color: #a39daa;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.box-text h1 {
+    font-size: 2.4rem;
+    color: #3e2753;
+    padding-bottom: 0.8em;
+    font-weight: 700;
+}
+#mobile {
+    width: 100%;
+    max-width: 250px;
+    position: absolute;
+    background-color: #f5f3f7;
+    height: 100%;
+    max-height: 470px;
+    left: 20%;
+    top: 12%;
+    border: 12px solid white;
+    border-radius: 30px;
+    z-index: 1;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 5px 220px 0 rgba(0, 0, 0, 0.2);
+}
+.mobile-notch {
+    width: 50%;
+    height: 18px;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: -12%;
+    border-radius: 3px 3px 10px 10px;
+    align-items: center;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.mobile-top {
+    background-image: linear-gradient(to left, #e942ff, #8838ff);
+    width: 100%;
+    max-width: 300px;
+    height: 70px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 15px 15px 10px 10px;
+    top: -0.5%;
+    margin: 0;
+    padding: 0;
+}
+.mobile-top img {
+    width: 15%;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    border: 1px solid white;
+    align-items: center;
+}
+.fa-angle-left {
+    position: absolute;
+    color: white;
+    left: 5%;
+    top: 43%;
+    font-size: 1.3em;
+    align-items: center;
+}
+.avatar-info {
+    color: white;
+    top: 38%;
+    left: 32%;
+    position: absolute;
+    width: 100%;
+}
+.avatar-info h2 {
+    font-size: 0.8em;
+    font-weight: 200;
+    font-family: "Rubik", sans-serif;
+}
+.avatar-info p {
+    font-size: 0.6em;
+    font-family: "Rubik", sans-serif;
+    color: #d89eff;
+}
+.fa-ellipsis-v {
+    color: white;
+    top: 38%;
+    left: 58%;
+    position: absolute;
+    font-size: 1em;
+}
+.chat-left-1 {
+    top: 16.5%;
+}
+.chat-left-2 {
+    top: 25.8%;
+}
+.chat-left-3 {
+    top: 64%;
+}
+#chats-left {
+    color: #9241c8;
+    left: 5%;
+}
+.left {
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    max-width: 51%;
+    background-color: #ebe8ed;
+    left: 5%;
+    max-width: 60%;
+    text-align: left;
+    border-radius: 10px 10px 10px 4px;
+    line-height: 1.5;
+    font-size: 0.53em;
+    padding: 0.72em 0.65em 0.72em 1em;
+}
+.left-chat1 {
+    top: 16.5%;
+}
+.left-chat2 {
+    top: 25.8%;
+}
+.left-chat3 {
+    top: 64%;
+}
+.right {
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    max-width: 50%;
+    background-color: white;
+    left: 35%;
+    text-align: left;
+    border-radius: 10px 10px 4px 10px;
+    line-height: 1.5;
+    font-size: 0.5em;
+    padding: 0.7em 0.5em 0.7em 1em;
+}
+.chat-right1 {
+    top: 47%;
+    left: 40%;
+    color: #6e5d7e;
+}
+.chat-right2 {
+    top: 56%;
+    left: 65%;
+    color: #6e5d7e;
+}
+.right-img {
+    position: relative;
+}
+.right-img img {
+    width: 100%;
+    border-radius: 10px;
+    max-width: 30%;
+}
+.img {
+    position: absolute;
+    top: 36%;
+    left: 40%;
+}
+.chat {
+    position: absolute;
+    top: 75%;
+    font-size: 0.5rem;
+    font-family: "Rubik", sans-serif;
+    left: 5%;
+    padding: 0.8em 0em 0.9em 1em;
+    border-radius: 10px 10px 10px 4px;
+    align-content: center;
+    color: white;
+    font-weight: lighter;
+    background-image: linear-gradient(to left, #e942ff, #8838ff);
+}
+.price-chat1 {
+    top: 75.5%;
+    width: 75%;
+}
+.price-chat2 {
+    top: 83%;
+    width: 75%;
+}
+strong {
+    position: relative;
+    font-size: 1.73em;
+    color: white;
+}
+.price-chat1 strong {
+    padding-left: 4.15rem;
+}
+.price-chat2 strong {
+    padding-left: 5.2rem;
+}
+.fa-circle {
+    font-size: 1.7em;
+    position: relative;
+    right: 2%;
+    font-weight: 100;
+    color: #e570ff;
+}
+.radio-button {
+    align-content: center;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
+.type-box {
+    position: absolute;
+    top: 91%;
+    left: 5%;
+}
+.msg-btn {
+    border: none;
+    background-color: white;
+    padding: 1.2em 0.8em;
+    width: 13.2rem;
+    border-radius: 30px;
+    font-family: "Rubik", sans-serif;
+    font-size: 0.58em;
+    color: #c6cacd;
+    text-align: left;
+    position: relative;
+    display: block;
+}
+input {
+    border: none;
+    outline: none;
+}
+.msg-btn input,
+::placeholder {
+    position: relative;
+    left: 7%;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.2em;
+    color: #c6cacd;
+    outline: none;
+    border: none;
+}
+.fa-angle-right {
+    color: white;
+    background-color: #3e2753;
+    position: absolute;
+    left: 85%;
+    top: 11%;
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+    padding: 5px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    .box-text {
+        position: absolute;
+        width: 100%;
+        left: 25%;
+        top: 110%;
+        padding-bottom: 10%;
+        font-family: "Rubik", sans-serif;
+        text-align: center;
+    }
+    .box-text h1 {
+        position: absolute;
+        width: 100%;
+        right: 15%;
+        top: -28%;
+        font-family: "Rubik", sans-serif;
+        text-align: center;
+    }
+    .bg-color-right {
+        width: 100%;
+        max-width: 60%;
+        background-color: #ffe6ff;
+        height: 90vh;
+        border-radius: 200px 200px 0 0;
+        right: -10%;
+        position: absolute;
+        top: 60%;
+        z-index: -1;
+    }
+}
